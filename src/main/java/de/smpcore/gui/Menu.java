@@ -63,7 +63,7 @@ public abstract class Menu implements InventoryHolder {
     }
 
     protected void closeLater() {
-        Bukkit.getScheduler().runTask(plugin, viewer::closeInventory);
+        Bukkit.getScheduler().runTask(plugin, () -> viewer.closeInventory());
     }
 
     public void handleClick(InventoryClickEvent e) {
