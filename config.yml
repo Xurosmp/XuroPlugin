@@ -1,0 +1,67 @@
+# ===== SMPCore =====
+prefix: "<dark_gray>[</dark_gray><aqua>SMP</aqua><dark_gray>]</dark_gray> <gray>"
+
+# Floodgate/Geyser: Prefix für Bedrock-Namen (Standard ".")
+bedrock-prefix: "."
+
+# Features an/aus (geht auch im Admin Panel)
+features:
+  shop: true
+  auction: true
+  bounty: true
+  crates: true
+  scoreboard: true
+
+economy:
+  starting-money: 1000
+  starting-crystals: 0
+
+crystals:
+  per-kill: 1
+  anti-farm-minutes: 10      # gleicher Spieler zählt X Minuten nicht erneut
+  playtime-minutes: 30       # alle X Minuten Spielzeit gibt es Kristalle (0 = aus)
+  playtime-amount: 1
+
+auction:
+  max-listings: 10
+  duration-hours: 48
+  tax-percent: 5
+  min-price: 1
+  max-price: 1000000000000
+
+bounty:
+  min-amount: 1000
+
+crates:
+  broadcast-chance-below: 5.0   # Gewinne mit weniger als X% Chance werden gebroadcastet
+
+teleport:
+  delay-seconds: 3
+
+homes:
+  max: 3
+
+rtp:
+  world: world
+  min-radius: 500
+  max-radius: 5000
+  cooldown-seconds: 60
+
+daily:
+  money: 500
+  streak-bonus: 100      # pro Streak-Tag zusätzlich
+  max-streak: 7
+  crystals: 1
+
+scoreboard:
+  title: "<gradient:aqua:blue><bold>MEIN SMP</bold></gradient>"
+  # Platzhalter: %player% %money% %crystals% %kills% %deaths% %playtime% %online% %bounty% %ping%
+  lines:
+    - "<dark_gray>――――――――――――"
+    - "<green>Geld: <white>%money%"
+    - "<light_purple>Kristalle: <white>%crystals%"
+    - "<red>Kills: <white>%kills% <dark_gray>| <gray>Tode: <white>%deaths%"
+    - "<yellow>Spielzeit: <white>%playtime%"
+    - "<gold>Kopfgeld: <white>%bounty%"
+    - " "
+    - "<aqua>Online: <white>%online%"

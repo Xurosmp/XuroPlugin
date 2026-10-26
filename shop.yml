@@ -1,0 +1,101 @@
+# Shop-Kategorien. buy = Kaufpreis pro Stück (0 = nicht kaufbar), sell = Verkaufspreis (0 = nicht verkaufbar)
+# slot = Position im Hauptmenü (0-26), Materialnamen: https://jd.papermc.io/paper/1.21.4/org/bukkit/Material.html
+categories:
+  ores:
+    name: "<aqua><bold>Erze"
+    icon: DIAMOND
+    slot: 10
+    items:
+      - {material: COAL, buy: 20, sell: 8}
+      - {material: COPPER_INGOT, buy: 15, sell: 6}
+      - {material: IRON_INGOT, buy: 60, sell: 25}
+      - {material: GOLD_INGOT, buy: 120, sell: 50}
+      - {material: REDSTONE, buy: 12, sell: 5}
+      - {material: LAPIS_LAZULI, buy: 15, sell: 6}
+      - {material: DIAMOND, buy: 400, sell: 180}
+      - {material: EMERALD, buy: 300, sell: 130}
+      - {material: NETHERITE_SCRAP, buy: 2500, sell: 1000}
+      - {material: QUARTZ, buy: 20, sell: 8}
+  gear:
+    name: "<red><bold>Ausrüstung"
+    icon: DIAMOND_SWORD
+    slot: 11
+    items:
+      - {material: IRON_SWORD, buy: 250, sell: 0}
+      - {material: DIAMOND_SWORD, buy: 1500, sell: 0}
+      - {material: BOW, buy: 200, sell: 0}
+      - {material: CROSSBOW, buy: 300, sell: 0}
+      - {material: ARROW, buy: 5, sell: 1}
+      - {material: SHIELD, buy: 250, sell: 0}
+      - {material: IRON_PICKAXE, buy: 250, sell: 0}
+      - {material: DIAMOND_PICKAXE, buy: 1500, sell: 0}
+      - {material: IRON_CHESTPLATE, buy: 500, sell: 0}
+      - {material: DIAMOND_CHESTPLATE, buy: 3000, sell: 0}
+      - {material: ELYTRA, buy: 50000, sell: 0}
+      - {material: TOTEM_OF_UNDYING, buy: 20000, sell: 0}
+  food:
+    name: "<gold><bold>Essen"
+    icon: COOKED_BEEF
+    slot: 12
+    items:
+      - {material: BREAD, buy: 15, sell: 5}
+      - {material: COOKED_BEEF, buy: 25, sell: 10}
+      - {material: COOKED_PORKCHOP, buy: 25, sell: 10}
+      - {material: COOKED_CHICKEN, buy: 20, sell: 8}
+      - {material: GOLDEN_CARROT, buy: 60, sell: 20}
+      - {material: GOLDEN_APPLE, buy: 600, sell: 200}
+      - {material: ENCHANTED_GOLDEN_APPLE, buy: 15000, sell: 0}
+  blocks:
+    name: "<gray><bold>Blöcke"
+    icon: GRASS_BLOCK
+    slot: 13
+    items:
+      - {material: COBBLESTONE, buy: 2, sell: 0.5}
+      - {material: STONE, buy: 3, sell: 1}
+      - {material: OAK_LOG, buy: 8, sell: 3}
+      - {material: SPRUCE_LOG, buy: 8, sell: 3}
+      - {material: BIRCH_LOG, buy: 8, sell: 3}
+      - {material: DIRT, buy: 1, sell: 0.25}
+      - {material: SAND, buy: 3, sell: 1}
+      - {material: GLASS, buy: 6, sell: 2}
+      - {material: OBSIDIAN, buy: 80, sell: 30}
+      - {material: GLOWSTONE, buy: 30, sell: 10}
+  farming:
+    name: "<green><bold>Farming"
+    icon: WHEAT
+    slot: 14
+    items:
+      - {material: WHEAT, buy: 8, sell: 3}
+      - {material: CARROT, buy: 8, sell: 3}
+      - {material: POTATO, buy: 8, sell: 3}
+      - {material: SUGAR_CANE, buy: 8, sell: 3}
+      - {material: PUMPKIN, buy: 12, sell: 4}
+      - {material: MELON_SLICE, buy: 5, sell: 2}
+      - {material: NETHER_WART, buy: 15, sell: 5}
+      - {material: BONE, buy: 10, sell: 4}
+      - {material: STRING, buy: 10, sell: 4}
+  redstone:
+    name: "<dark_red><bold>Redstone"
+    icon: REDSTONE_TORCH
+    slot: 15
+    items:
+      - {material: PISTON, buy: 80, sell: 0}
+      - {material: STICKY_PISTON, buy: 120, sell: 0}
+      - {material: OBSERVER, buy: 100, sell: 0}
+      - {material: HOPPER, buy: 150, sell: 0}
+      - {material: REPEATER, buy: 40, sell: 0}
+      - {material: COMPARATOR, buy: 60, sell: 0}
+      - {material: TNT, buy: 200, sell: 0}
+  misc:
+    name: "<light_purple><bold>Sonstiges"
+    icon: ENDER_PEARL
+    slot: 16
+    items:
+      - {material: ENDER_PEARL, buy: 150, sell: 50}
+      - {material: BLAZE_ROD, buy: 100, sell: 40}
+      - {material: GUNPOWDER, buy: 40, sell: 15}
+      - {material: SLIME_BALL, buy: 40, sell: 15}
+      - {material: EXPERIENCE_BOTTLE, buy: 120, sell: 0}
+      - {material: FIREWORK_ROCKET, buy: 40, sell: 0}
+      - {material: SHULKER_SHELL, buy: 1500, sell: 500}
+      - {material: ANCIENT_DEBRIS, buy: 3000, sell: 1200}
