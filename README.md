@@ -12,6 +12,16 @@ All-in-one SMP-Plugin für **Paper 1.21.4+** (Java 21) mit **Bedrock-Support** (
 - **Admin Panel** `/ap`: Spieler (Geld/Kristalle/Keys/TP/Heilen/Kick), Kopfgelder, Crates, Feature-Schalter, Reload
 - **Extras**: Scoreboard, Homes, `/tpa`, `/rtp`, Spawn, `/daily` mit Streak, `/stats`, Bestenlisten
 
+## Neu in v2
+- **Chat-Prefix pro Befehl** (`AH ▸`, `HOME ▸`, `SHOP ▸` ... max. 4 Zeichen) – Einstellung unter `prefixes:` in der config.yml
+- **Ränge** (`ranks.yml`): Prefix im Chat/Tab, Permissions mit Vererbung, Home-/AH-Limits. `/rank list|set|info`
+- **SmartSpawner** (`spawners.yml`): Spawner lagern Loot + XP virtuell, Menü per Rechtsklick (Lager, XP, Verkaufen, Stapeln). `/spawner give <Spieler> <Typ> [Anzahl]`
+- **3x3-Tools** (`tools.yml`): Hammer, Excavator, Mega-Hammer (5x5), Holzfäller-Axt. Sneaken = 1 Block. `/tool give <Spieler> <id> [Anzahl]`
+- **Keyall** mit Countdown im Scoreboard (`keyall:` in der config.yml), `/keyall`, `/keyall now`, `/keyall set <min>`
+- **Crate-Editor** im Admin Panel: Crates erstellen/löschen, Rewards hinzufügen (Item aus der Hand, Geld, Kristalle), Chancen ändern, Modus **RANDOM** oder **CHOOSE** (Spieler wählt seinen Reward selbst)
+- **Admin Panel (`/ap`, `/ap <Name>`)**: Spieler (inkl. Rang ändern), Kopfgelder, Crate-Editor, Spawner/Tools geben, Keyall, Server-Tools (Features, Wartungsmodus, Reload)
+- **Shop im HugoSMP-Look** (3 Reihen, Kategorien mittig, kein Füll-Glas) und **Scoreboard** im HugoSMP-Look
+
 ## Bedrock
 Alle Menüs sind normale Kisten-GUIs und mit **einem Tap** bedienbar (kein Shift-Klick, kein Chat-Input nötig).
 Käufe im AH/Kristall-Shop haben ein Bestätigungsmenü. Spielerdaten laufen über UUIDs, Floodgate-Namen (`.Name`)

@@ -1,0 +1,13 @@
+# Kristall-Shop. type: KEY (value = Crate-ID) | MONEY (value = Betrag) | ITEM (value = Material) | COMMAND (value = Befehl, %player%)
+items:
+  - {icon: TRIPWIRE_HOOK, name: "<green>Common Key", cost: 5, type: KEY, value: common, amount: 1, lore: ["<gray>Schlüssel für die Common Crate"]}
+  - {icon: TRIPWIRE_HOOK, name: "<aqua>Rare Key", cost: 20, type: KEY, value: rare, amount: 1, lore: ["<gray>Schlüssel für die Rare Crate"]}
+  - {icon: TRIPWIRE_HOOK, name: "<gold>Legendary Key", cost: 75, type: KEY, value: legendary, amount: 1, lore: ["<gray>Schlüssel für die Legendary Crate"]}
+  - {icon: GOLD_INGOT, name: "<gold>$50.000", cost: 10, type: MONEY, value: "50000", amount: 1, lore: ["<gray>Tausche Kristalle gegen Geld"]}
+  - {icon: GOLD_BLOCK, name: "<gold>$500.000", cost: 80, type: MONEY, value: "500000", amount: 1, lore: ["<gray>Tausche Kristalle gegen Geld"]}
+  - {icon: ELYTRA, name: "<light_purple>Elytra", cost: 150, type: ITEM, value: ELYTRA, amount: 1, lore: ["<gray>Flieg los!"]}
+  - {icon: TOTEM_OF_UNDYING, name: "<yellow>Totem", cost: 15, type: ITEM, value: TOTEM_OF_UNDYING, amount: 1, lore: []}
+  - {icon: SPAWNER, name: "<green>Zombie Spawner", cost: 120, type: COMMAND, value: "spawner give %player% ZOMBIE 1", amount: 1, lore: ["<gray>Smart-Spawner: lagert Loot & XP"]}
+  - {icon: SPAWNER, name: "<white>Skeleton Spawner", cost: 120, type: COMMAND, value: "spawner give %player% SKELETON 1", amount: 1, lore: ["<gray>Smart-Spawner: lagert Loot & XP"]}
+  - {icon: NETHERITE_PICKAXE, name: "<red>Hammer (3x3)", cost: 200, type: COMMAND, value: "tool give %player% hammer 1", amount: 1, lore: ["<gray>Baut 3x3 Blöcke ab"]}
+  - {icon: NETHERITE_SHOVEL, name: "<yellow>Excavator (3x3)", cost: 200, type: COMMAND, value: "tool give %player% excavator 1", amount: 1, lore: ["<gray>Gräbt 3x3 Blöcke"]}
